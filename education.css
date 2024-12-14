@@ -1,0 +1,61 @@
+header{
+    text-align: center;
+}
+html, body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(182, 137, 82);
+    background-color: rgb(206, 159, 102);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: rgb(182, 137, 82);
+}
+.navbar{
+    border: 5px solid;
+    width: 900px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: bisque;
+    border-color: rgb(230, 201, 165);
+    margin: auto;
+}
+h1{
+    border: 5px solid;
+    width: 850px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: bisque;
+    border-color: rgb(230, 201, 165);
+    display: inline-block;
+    
+}
+a:hover{
+    background-color: rgb(209, 188, 161);
+}
+img{
+    width: 350px;
+}
+main{
+    background-color: rgb(230, 201, 165);
+    margin-top: 20px;
+    padding: 15px 20px;
+    font-weight: bold;
+    border: 5px solid;
+    border-radius: 10px;
+    text-align: justify;
+}
+legend{
+    font-size: 30px;
+}
+fieldset{
+    border-color: rgb(230, 201, 165);
+}
+.active{
+    background-color: rgb(209, 188, 161);
+}
+hr{
+    border-color: rgb(230, 201, 165);
+}
