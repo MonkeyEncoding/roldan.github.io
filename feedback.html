@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">      
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="C:\Users\Admin\OneDrive\Desktop\ITC Project\CSS Files\feedback.css" rel="stylesheet">
+        <title>Feedback</title>
+    </head>
+    <body>
+        <header>
+          <h1>Feedback</h1>
+          <div class="navbar">
+            <a href="homepage.html">Home</a>|
+            <a href="personal.html">Personal Info</a>|
+            <a href="education.html">Education</a>|
+            <a href="skills.html">Skills and Training</a>|
+            <a href="projects.html">Projects</a>|
+            <a href="gallery.html">Photo Gallery</a>|
+            <a href="feedback.html" class="active">Feedback</a>
+          </div>
+        </header>
+        <main>
+          <fieldset>
+            <legend>Suggestions and Comments:</legend>
+              <div class="feedback-form">
+                <form method="post" action="index.php" enctype="multipart/form-data">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Spongebob Squarepants"><br>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="spongebob@gmail.com"><br>
+                    <br>
+                    <label>
+                        <input type="radio" name="gender" value="female"> Female
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="male"> Male
+                    </label><br>
+                    <br>
+                    <textarea rows="10" cols="50px"></textarea><br>
+                    <br>
+                    <input type="submit" value="Submit the Form">
+                    <input type="reset" value="Reset the Form">
+                </form>
+              </div>
+            </fieldset>
+        </main>
+    </body>
+</html>
